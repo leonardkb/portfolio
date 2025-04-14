@@ -1,0 +1,18 @@
+.swiper-pagination {
+  position: relative;
+  bottom: -30px; /* Push it below the card if needed */
+  text-align: center;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #fbfbfb; /* gray-400 */
+  opacity: 1;
+  margin: 0 7px;
+  transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1547fa; /* yellow-400 */
+}
