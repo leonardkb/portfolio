@@ -64,7 +64,7 @@ const SplashScreen = () => {
           Leonard K B
         </h1>
         <p className="mt-4 text-gray-700 text-lg text-center">
-          Not Just Work, A Journey Through Innovation and Impact.
+           A Journey Through Innovation and Impact.
         </p>
       </motion.div>
     </motion.div>

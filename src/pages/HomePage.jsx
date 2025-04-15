@@ -134,7 +134,16 @@ export default function HomePage() {
                     <p className="text-white text-base md:text-lg">
                       DAF TEAM INTERN <br />
                       Bangalore, India<br />
-                      Optimized Apache NiFi data pipelines in Cloud IaaS, improving real-time freight visibility and predictive maintenance for 5,000+ trucks, reducing downtime by 15% and boosting efficiency by 20%.
+                      <ul className="list-disc list-inside text-gray-100 space-y-2 mt-2">
+                              <li>Optimized Apache NiFi data pipelines in Cloud IaaS,
+                                 improving real-time freight visibility and predictive maintenance for 5,000+ trucks,
+                                 reducing downtime by 15% and boosting efficiency by 20%.
+                              </li>
+                              <li> Collaborated with Siemens teams to monitor and optimize the health of edge devices
+                                 deployed at Procter & Gamble (P&G) , resulting in improved operational efficiency and 
+                                 proactive issue resolution.</li>
+                      </ul>
+                      
                     </p>
                   </div>
                 </div>
