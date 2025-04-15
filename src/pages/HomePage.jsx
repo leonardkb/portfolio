@@ -125,7 +125,8 @@ export default function HomePage() {
 
             <SwiperSlide>
               <AnimatedSection>
-                <div className="rounded-xl p-10 shadow-lg flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-24 bg-[#111]">
+                <div className="rounded-xl p-10 shadow-lg flex flex-col md:flex-row
+                 items-center md:items-start gap-6 md:gap-24 bg-[#111]">
                   <div className="w-32 h-32 flex justify-center items-center">
                     <img src="Atos.png" alt="Eviden Logo" className="object-contain w-full h-full" />
                   </div>
@@ -162,16 +163,19 @@ export default function HomePage() {
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
       
       {/* Project 1 */}
-      <div className="bg-white rounded-xl shadow-md
+      <div className="bg-black border-2 border-blue-400
+       rounded-xl shadow-md shadow-blue-500
        p-6 transition-transform hover:scale-105 duration-300">
         
-        <h2 className="text-2xl font-bold text-black mb-2">ST Verse</h2>
-        <p className="text-gray-700 text-base">
-          A virtual simulation of my college using Unity and ARCore. Provides students with immersive navigation of the campus through VR and AR. Assets designed in Blender and Sketchfab with real-world textures from AmbientCG.
+        <h2 className="text-2xl font-bold text-blue-100 mb-2">ST Verse</h2>
+        <p className="text-gray-500 text-base">
+          A virtual simulation of my college using Unity and ARCore.
+           Provides students with immersive navigation of the campus through VR and AR.
+            Assets designed in Blender and Sketchfab with real-world textures from AmbientCG.
         </p>
         <a
           href="https://github.com/leonardkb/stverse"
-          className="mt-4 inline-block text-blue-600 hover:underline"
+          className="mt-4 inline-block text-green-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -180,23 +184,32 @@ export default function HomePage() {
       </div>
 
       {/* Project 2 */}
-      <div className="bg-white rounded-xl shadow-md p-6 transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-black mb-2">Ace-Bot</h2>
-        <p className="text-gray-700 text-base">
-          A personal AI assistant powered by OpenAI API. Built using HTML, CSS, and JavaScript with voice recognition for real-time interaction. It handles Q&A, summaries, and creative storytelling.
+      <div className="bg-black border-2 border-blue-400
+       rounded-xl shadow-md shadow-blue-500
+       p-6 transition-transform hover:scale-105 duration-300">
+        <h2 className="text-2xl font-bold text-blue-100 mb-2">Ace-Bot</h2>
+        <p className="text-gray-500 text-base">
+          A personal AI assistant powered by OpenAI API. 
+          Built using HTML, CSS, and JavaScript with voice recognition 
+          for real-time interaction. It handles Q&A, summaries, and creative storytelling.
         </p>
       </div>
 
       {/* Project 3 */}
-      <div className="bg-white rounded-xl shadow-md p-6 transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-black mb-2">Smart Pot IoT Model</h2>
+      <div className="bg-white rounded-xl shadow-md p-6 
+      transition-transform hover:scale-105 duration-300">
+        <h2 className="text-2xl font-bold
+         text-black mb-2">Smart Pot IoT Model</h2>
         <p className="text-gray-700 text-base">
-          Built a smart agricultural monitoring system using IoT sensors to track soil moisture, nutrients, and climate data. Applied ML to predict crop health and automate watering cycles.
+          Built a smart agricultural monitoring system using
+           IoT sensors to track soil moisture, nutrients, and climate data.
+            Applied ML to predict crop health and automate watering cycles.
         </p>
       </div>
 
       {/* Project 4 */}
-      <div className="bg-white rounded-xl shadow-md p-6 transition-transform hover:scale-105 duration-300">
+      <div className="bg-white rounded-xl shadow-md p-6 transition-transform
+       hover:scale-105 duration-300">
         <h2 className="text-2xl font-bold text-black mb-2">Cloud Shopkeeper</h2>
         <p className="text-gray-700 text-base">
           A scalable cloud-native inventory and analytics dashboard for local shopkeepers. Features include custom columns, real-time stock updates, LLM chatbot, and CCTV integration. Built with Next.js, Tailwind, MySQL, and Node.js.
