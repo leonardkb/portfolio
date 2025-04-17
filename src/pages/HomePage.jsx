@@ -143,6 +143,8 @@ export default function HomePage() {
                               <li> Collaborated with Siemens teams to monitor and optimize the health of edge devices
                                  deployed at Procter & Gamble (P&G) , resulting in improved operational efficiency and 
                                  proactive issue resolution.</li>
+
+                              
                       </ul>
                       
                     </p>

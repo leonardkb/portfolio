@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 
 // Define symbols and their weights
 const symbolWeights = [
-  { symbol: '</>', weight: 8 },
-  { symbol: '=>', weight: 2 },
+  { symbol: '</>', weight: 4 },
+  
 ];
 
 // Create a flat array based on weights
@@ -13,7 +13,7 @@ const weightedSymbols = symbolWeights.flatMap(({ symbol, weight }) =>
 );
 
 // Generate 50 random symbols based on weights
-const symbols = Array.from({ length: 50 }, () =>
+const symbols = Array.from({ length: 10 }, () =>
   weightedSymbols[Math.floor(Math.random() * weightedSymbols.length)]
 );
 
@@ -37,7 +37,7 @@ const SplashScreen = () => {
         return (
           <motion.span
             key={index}
-            className="absolute text-black/40 font-mono pointer-events-none select-none"
+            className="absolute text-black/20 font-mono pointer-events-none select-none"
             style={style}
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: [0, -10, 0] }}
