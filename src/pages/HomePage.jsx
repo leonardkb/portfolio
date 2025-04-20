@@ -47,10 +47,11 @@ export default function HomePage() {
       <Navbar />
 
       <AnimatedSection>
-        <div className="mx-auto max-w-7xl flex flex-col
+        <div className="mx-auto max-w-7xl flex flex-col text-shadow-2xl  
          md:flex-row items-center justify-between mt-24 md:mt-44 px-4 gap-10">
           <motion.div className="w-full md:w-1/2">
-            <h1 className="text-4xl md:text-5xl font-semibold text-black leading-tight tracking-tight">
+            <h1 className="text-4xl md:text-5xl font-semibold text-shadow-xs
+             text-black leading-tight tracking-tight">
               An Indian-based <span className="text-yellow-700">Innovative</span> Computer Engineer
             </h1>
             <p className="mt-8 text-lg text-gray-700">

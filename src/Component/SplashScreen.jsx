@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 // Define symbols and their weights
 const symbolWeights = [
-  { symbol: '</>', weight: 4 },
+  { symbol: '</>', weight: 2 },
   
 ];
 
@@ -60,7 +60,8 @@ const SplashScreen = () => {
         transition={{ delay: 0.5, duration: 1 }}
         className="flex flex-col items-center z-10"
       >
-        <h1 className="text-4xl md:text-6xl font-semibold text-black tracking-wider font-sans">
+        <h1 className="text-4xl md:text-6xl font-semibold
+          text-black tracking-wider font-sans">
           Leonard K B
         </h1>
         <p className="mt-4 text-gray-700 text-lg text-center">
