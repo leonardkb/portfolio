@@ -81,7 +81,7 @@ export default function HomePage() {
       </AnimatedSection>
 
       <AnimatedSection>
-        <div className="bg-black mt-12 md:mt-24 py-16 relative overflow-hidden">
+        <div className="bg-black mt-10 md:mt-24 py-16 relative overflow-hidden">
           <div className="absolute -top-48 -left-48 w-[600px] h-[600px]
            bg-purple-600 rounded-full mix-blend-multiply filter blur-3xl
             opacity-30 animate-blob animation-delay-2000 z-0"></div>
@@ -103,7 +103,9 @@ export default function HomePage() {
           >
             <SwiperSlide>
               <AnimatedSection>
-                <div className="rounded-xl p-10 shadow-lg flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-24 bg-[#111]">
+                <div className="rounded-xl p-10 shadow-lg 
+                flex flex-col md:flex-row items-center md:items-start 
+                gap-6 md:gap-24 bg-[#111]">
                   <div className="w-32 h-32 mt-22 flex justify-center items-center">
                     <img src="tcs.png" alt="TCS LOGO" className="object-contain w-full h-full" />
                   </div>
@@ -157,7 +159,8 @@ export default function HomePage() {
           </Swiper>
          {/* projects section*/}
          <div className="mt-20 px-4 md:px-12 max-w-6xl mx-auto relative z-10">
-          <div className="text-center mb-12 text-white text-2xl md:text-5xl font-semibold">
+          <div className="text-center mb-12 text-white text-3xl md:text-5xl 
+          font-semibold tracking-wider">
             <h1>
               Projects
             </h1>
@@ -199,11 +202,11 @@ export default function HomePage() {
       </div>
 
       {/* Project 3 */}
-      <div className="bg-white rounded-xl shadow-md p-6 
-      transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold
-         text-black mb-2">Smart Pot IoT Model</h2>
-        <p className="text-gray-700 text-base">
+      <div className="bg-black border-2 border-blue-400
+       rounded-xl shadow-md shadow-blue-500
+       p-6 transition-transform hover:scale-105 duration-300">
+        <h2 className="text-2xl font-bold text-blue-100 mb-2">Smart Pot IoT Model</h2>
+        <p className="text-gray-500 text-base">
           Built a smart agricultural monitoring system using
            IoT sensors to track soil moisture, nutrients, and climate data.
             Applied ML to predict crop health and automate watering cycles.
@@ -211,10 +214,11 @@ export default function HomePage() {
       </div>
 
       {/* Project 4 */}
-      <div className="bg-white rounded-xl shadow-md p-6 transition-transform
-       hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-black mb-2">Cloud Shopkeeper</h2>
-        <p className="text-gray-700 text-base">
+      <div className="bg-black border-2 border-blue-400
+       rounded-xl shadow-md shadow-blue-500
+       p-6 transition-transform hover:scale-105 duration-300">
+        <h2 className="text-2xl font-bold text-blue-100 mb-2">Cloud Shopkeeper</h2>
+        <p className="text-gray-500 text-base">
           A scalable cloud-native inventory and analytics dashboard for local shopkeepers. Features include custom columns, real-time stock updates, LLM chatbot, and CCTV integration. Built with Next.js, Tailwind, MySQL, and Node.js.
         </p>
       </div>

@@ -61,7 +61,7 @@ const SplashScreen = () => {
         className="flex flex-col items-center z-10"
       >
         <h1 className="text-4xl md:text-6xl font-semibold
-          text-black tracking-wider font-sans">
+          text-black tracking-wider font-sans text-shadow-xs">
           Leonard K B
         </h1>
         <p className="mt-4 text-gray-700 text-lg text-center">
