@@ -57,12 +57,14 @@ export default function HomePage() {
             <p className="mt-8 text-lg text-gray-700">
               Building creative and efficient solutions with modern web and AI technologies. Whether it's designing beautiful interfaces or exploring intelligent automation, I love turning ideas into impactful solutions. Currently exploring AI, Full Stack, and cloud-native apps. Also a photographer and a passionate traveler capturing the world through my lens.
             </p>
-            <motion.button
-              className="bg-black text-white px-6 py-3 mt-8 rounded-lg hover:bg-gray-800 transition-all duration-200 text-base md:text-lg shadow-md"
-              whileHover={{ scale: 1.05 }}
-            >
-              Download CV
-            </motion.button>
+            <motion.a
+  href="/Leonard_kb.pdf"
+  download
+  className="bg-black text-white px-6 py-3 mt-8 rounded-lg hover:bg-gray-800 transition-all duration-200 text-base md:text-lg shadow-md inline-block"
+  whileHover={{ scale: 1.05 }}
+>
+  Download CV
+</motion.a>
           </motion.div>
 
           <motion.div
@@ -180,12 +182,12 @@ export default function HomePage() {
             Assets designed in Blender and Sketchfab with real-world textures from AmbientCG.
         </p>
         <a
-          href="https://github.com/leonardkb/stverse"
+          href="https://stverse.vercel.app/"
           className="mt-4 inline-block text-green-600 hover:underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          View on GitHub
+          View
         </a>
       </div>
 
@@ -193,35 +195,24 @@ export default function HomePage() {
       <div className="bg-black border-2 border-blue-400
        rounded-xl shadow-md shadow-blue-500
        p-6 transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-blue-100 mb-2">Ace-Bot</h2>
+        <h2 className="text-2xl font-bold text-blue-100 mb-2">MarkSnap</h2>
         <p className="text-gray-500 text-base">
-          A personal AI assistant powered by OpenAI API. 
-          Built using HTML, CSS, and JavaScript with voice recognition 
-          for real-time interaction. It handles Q&A, summaries, and creative storytelling.
+          MarkSnap is a business-grade application powered by LLaMA OCR that transforms physical or digital documents, 
+          handwritten notes, invoices, or printed pages into clean, well-structured Markdown. 
+          Ideal for startups, writers, researchers, consultants, 
+          and finance professionals who want to digitize and organize content instantly with AI.
         </p>
+        <a
+          href="https://ocr-coral.vercel.app/"
+          className="mt-4 inline-block text-green-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View
+        </a>
       </div>
 
-      {/* Project 3 */}
-      <div className="bg-black border-2 border-blue-400
-       rounded-xl shadow-md shadow-blue-500
-       p-6 transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-blue-100 mb-2">Smart Pot IoT Model</h2>
-        <p className="text-gray-500 text-base">
-          Built a smart agricultural monitoring system using
-           IoT sensors to track soil moisture, nutrients, and climate data.
-            Applied ML to predict crop health and automate watering cycles.
-        </p>
-      </div>
-
-      {/* Project 4 */}
-      <div className="bg-black border-2 border-blue-400
-       rounded-xl shadow-md shadow-blue-500
-       p-6 transition-transform hover:scale-105 duration-300">
-        <h2 className="text-2xl font-bold text-blue-100 mb-2">Cloud Shopkeeper</h2>
-        <p className="text-gray-500 text-base">
-          A scalable cloud-native inventory and analytics dashboard for local shopkeepers. Features include custom columns, real-time stock updates, LLM chatbot, and CCTV integration. Built with Next.js, Tailwind, MySQL, and Node.js.
-        </p>
-      </div>
+    
     </div>
   </AnimatedSection>
 </div>

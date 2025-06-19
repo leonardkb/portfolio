@@ -6,9 +6,9 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const links = [
-    { name: 'Blog', href: '#blog' },
-    { name: 'Others', href: '#others' },
-    { name: 'Contact', href: '#contact' }
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/in/leonard-kb-9bb7271b6/' },
+    { name: 'Instagram', href: 'https://www.instagram.com/_mr_leonard/' },
+    { name: 'Youtube', href: 'https://www.youtube.com/@lkmusic3' }
   ];
 
   return (
@@ -30,25 +30,19 @@ function Navbar() {
 
         {/* Desktop Links */}
         <div className="hidden md:flex items-center space-x-6 md:space-x-20">
-          {links.slice(0, 2).map((link, i) => (
+          {links.map((link, i) => (
             <motion.a
               key={link.name}
               href={link.href}
-              className="text-gray-700 hover:text-black text-base md:text-lg border-b-4 border-transparent hover:border-blue-900 transition-all duration-300"
+              className="text-gray-700 hover:text-black text-base md:text-lg border-b-4
+               border-transparent hover:border-blue-900 transition-all duration-300"
               whileHover={{ scale: 1.1 }}
               transition={{ delay: i * 0.1, type: 'spring', stiffness: 200 }}
             >
               {link.name}
             </motion.a>
           ))}
-          <motion.a
-            href="#contact"
-            className="bg-black text-white px-4 md:px-6 py-2 rounded-lg hover:bg-gray-800 transition-all duration-200 text-base md:text-lg"
-            whileHover={{ scale: 1.05 }}
-            transition={{ type: 'spring', stiffness: 200 }}
-          >
-            Contact
-          </motion.a>
+          
         </div>
 
         {/* Hamburger - Mobile */}
